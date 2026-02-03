@@ -21,6 +21,9 @@ Veda-AI is a professional-grade **Retrieval-Augmented Generation (RAG) system de
 * **Embeddings:** HuggingFace Transformers
 * **Language:** Python 3.11+
 
+  TO Add more vedic information or more books in PDF format
+  add files to the Data folder and run Ingest.py
+
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 Installation & Setup
