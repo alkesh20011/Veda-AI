@@ -1,0 +1,43 @@
+ Veda-Oracle: Multilingual Vedic RAG
+
+Veda-Oracle is a professional-grade **Retrieval-Augmented Generation (RAG) system designed to provide accurate, context-aware answers from ancient Vedic scriptures. By combining the power of **Llama 3** with a vector-indexed library of 7+ foundational books, the Oracle acts as a bridge between ancient wisdom and modern AI.
+
+
+
+ Key Features
+* **100% Local & Private:** Powered by Ollama—your data and queries never leave your machine.
+* **Multilingual Support:** Uses `paraphrase-multilingual-MiniLM-L12-v2` to understand queries in English, Hindi, and Sanskrit.
+* **Real-time Streaming:** Words appear as they are born, providing a snappy, low-latency experience.
+* **Universal Configuration:** Easily switch between local models (Llama3/Phi3)
+* **Persistent Memory:** Uses ChromaDB to store and retrieve high-fidelity vector embeddings.
+
+ Tech Stack
+* **Orchestration:** LangChain v1.x (Modular 2026 Release)
+* **LLM Engine:** Ollama (Llama 3 8B)
+* **Vector Database:** ChromaDB
+* **Embeddings:** HuggingFace Transformers
+* **Language:** Python 3.11+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Installation & Setup
+
+### 1. Prerequisites
+* Install [Ollama](https://ollama.ai/)
+* Pull the model: `ollama pull llama3`
+
+### 2. Environment Setup
+```bash
+# Clone the repository
+git clone [https://github.com/yourusername/Veda-Oracle.git](https://github.com/yourusername/Veda-Oracle.git)
+cd Veda-AI
+
+# Create and activate virtual environment
+python -m venv venv
+.\venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+python app.py
+
